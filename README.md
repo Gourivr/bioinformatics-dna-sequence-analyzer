@@ -1,4 +1,4 @@
-## Bioinformatics DNA Sequence Analyzer for DNA Composition, Transcription and Translation
+# Bioinformatics DNA Sequence Analyzer for DNA Composition, Transcription and Translation
 
 ## Project Description
 
@@ -16,20 +16,29 @@ The program allows the user to calculate GC content, find the reverse complement
 - RNA codon translation into amino acids
 - Comparison of two DNA sequences
 - Final analysis report
-- Menu-based interaction
-- Basic input error handling
+- Menu-based command-line interaction
+- Basic input validation and error handling
 
-## Requirements
+## Technologies and Tools
 
 - Python 3.x
+- Visual Studio Code
+- GitHub
+- Command-line interface
 
 No external Python libraries are required.
 
-## How to Run
-
-1. Download or clone this repository.
-2. Open the project folder in VS Code or another Python editor.
-3. Run the following command:
+## Project Structure
 
 ```text
-python main.py
+bioinformatics-dna-sequence-analyzer/
+│
+├── main.py
+├── dna_validation.py
+├── dna_operations.py
+├── dna_analysis.py
+├── translation.py
+├── sequence_comparison.py
+├── report.py
+├── README.md
+└── statement.md
