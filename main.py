@@ -49,7 +49,15 @@ while True:
     print("7. Exit\n")
     print('**********_**********\n')
 
-    choice = int(input("Enter your choice: "))
+    choice_input = input("Enter your choice: ")
+    
+    if not choice_input.isdigit():
+        print("Please enter a number from 1 to 7")
+        continue
+    choice = int(choice_input)
+    if choice < 1 or choice > 7:
+        print("Please enter a number from 1 to 7")
+        continue
     if choice == 1:
         a = dna.count("A")
         t = dna.count("T")
